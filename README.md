@@ -1,1 +1,1 @@
-# device_redmi2
+Dirty Device Tree for Redmi 2
