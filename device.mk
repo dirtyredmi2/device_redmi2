@@ -19,9 +19,8 @@ $(call inherit-product-if-exists, vendor/wingtech/wt88047/wt88047-vendor.mk)
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+# Use specific resolution for bootanimation
+SMALL_BOOTANIMATION_SIZE := 720x720
 
 # Screen density
 PRODUCT_PROPERTY_OVERRIDES += ro.sf.lcd_density=320
