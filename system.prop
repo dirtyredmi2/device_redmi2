@@ -20,6 +20,10 @@ vidc.enc.narrow.searchrange=1
 ro.qualcomm.bt.hci_transport=smd
 qcom.bluetooth.soc=smd
 
+#Beautification
+persist.ts.postmakeup=true
+persist.ts.rtmakeup=true
+
 # dex2oat
 dalvik.vm.dex2oat-filter=interpret-only
 dalvik.vm.image-dex2oat-filter=speed
